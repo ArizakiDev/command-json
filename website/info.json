@@ -1,0 +1,24 @@
+[
+    {
+      "name": "commande1",
+      "description": "Description de la commande 1",
+      "urls": "https://exemple.com/1,https://exemple.com/2",
+      "embedColor": "#FF0000",
+      "image": ""
+    },
+    {
+      "name": "commande2",
+      "description": "Description de la commande 2",
+      "urls": "https://exemple.com/3",
+      "embedColor": "",
+      "image": ""
+    },
+    {
+      "name": "commande3",
+      "description": "Description de la commande 3",
+      "urls": "https://exemple.com/4,https://exemple.com/5,https://exemple.com/6",
+      "embedColor": "",
+      "image": ""
+    }
+  ]
+  
