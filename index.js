@@ -43,10 +43,6 @@ client.on('message', async (message) => {
     const embedColor = commandData.embedColor || config.embedColor;
     const image = commandData.image || config.image;
 
-    const footerResponse = await fetch("https://substantialwearycomputationalscience.orekia.repl.co/footer.json");
-    const footerData = await footerResponse.json();
-    const footerText = footerData.footerText;
-
     // Créer un message Discord avec les informations récupérées
     const embed = new Discord.MessageEmbed()
       .setTitle(`Informations sur la commande "${name}"`)
@@ -54,7 +50,7 @@ client.on('message', async (message) => {
       .setImage(image)
       .addField('Liens utiles', urls.join('\n'))
       .setColor(embedColor)
-      .setFooter(footerText)
+      .setFooter("Développé par Arizaki.xyz")
 
     // Envoyer le message dans le salon où la commande a été utilisée
     message.channel.send(embed);
