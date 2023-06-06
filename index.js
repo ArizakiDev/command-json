@@ -1,3 +1,6 @@
+//Développé par Arizaki
+//Merci de me credité si vous reprenez le code.
+
 const Discord = require('discord.js');
 const fetch = require('node-fetch');
 const config = require('./config.json');
